@@ -1,0 +1,6 @@
+name=wood
+diffuse=woodAlbedo
+normal=woodNormal
+reflectivity=0.1
+shineDamper=50
+fresnel=5

@@ -1,0 +1,4 @@
+name fire0
+frames 60
+rows 6
+collumns 10

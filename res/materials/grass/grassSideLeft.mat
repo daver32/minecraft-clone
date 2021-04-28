@@ -1,0 +1,6 @@
+name=grassSideLeft
+diffuse=grassSideLeftAlbedo
+normal=grassSideNormal
+reflectivity=0
+shineDamper=50
+fresnel=0

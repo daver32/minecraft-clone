@@ -1,0 +1,4 @@
+name skull
+rows 5
+collumns 4
+frames 20

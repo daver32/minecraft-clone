@@ -1,0 +1,5 @@
+name=frame
+reflectivity=0
+shineDamper=0
+fresnel=0
+diffuse=frame

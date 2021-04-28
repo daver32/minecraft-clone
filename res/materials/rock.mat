@@ -1,0 +1,8 @@
+name=rock
+diffuse=rockDiffuse
+normal=rockNormal
+specular=rockSpecular
+height=rockHeight
+reflectivity=0.3
+shineDamper=500
+fresnel=5

@@ -1,0 +1,7 @@
+name=grass
+diffuse=grassDiffuse_lowres
+specular=grassSpecular_lowres
+normal=grassNormal_lowres
+reflectivity=0
+shineDamper=50
+fresnel=0

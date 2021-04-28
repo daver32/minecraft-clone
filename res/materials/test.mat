@@ -1,0 +1,5 @@
+name=test
+diffuse=test
+reflectivity=1
+shineDamper=50
+fresnel=0

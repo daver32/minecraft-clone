@@ -1,0 +1,6 @@
+name=tallGrass
+diffuse=tallGrassAlbedo
+//normal=tallGrassNormal
+reflectivity=0
+shineDamper=50
+fresnel=0

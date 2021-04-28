@@ -1,0 +1,6 @@
+name=tiles
+reflectivity=0.5
+shineDamper=50
+fresnel=1
+diffuse=tiles
+normal=tilesNormal

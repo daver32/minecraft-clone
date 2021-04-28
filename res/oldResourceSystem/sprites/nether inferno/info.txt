@@ -1,0 +1,4 @@
+name nether_inferno
+rows 9
+collumns 10
+frames 90

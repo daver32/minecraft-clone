@@ -1,0 +1,6 @@
+name=woodPlank
+diffuse=woodPlankAlbedo
+normal=woodPlankNormal
+reflectivity=0.1
+shineDamper=50
+fresnel=5

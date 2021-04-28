@@ -1,0 +1,6 @@
+name=leaves
+diffuse=leavesAlbedo
+normal=leavesNormal
+reflectivity=0
+shineDamper=50
+fresnel=0

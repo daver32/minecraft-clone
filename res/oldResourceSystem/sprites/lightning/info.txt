@@ -1,0 +1,4 @@
+name lightning
+rows 6
+collumns 4
+frames 21

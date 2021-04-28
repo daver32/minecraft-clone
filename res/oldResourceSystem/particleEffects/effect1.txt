@@ -1,0 +1,14 @@
+texture0 fire
+texture1 smoke
+texture_change_time 0.3,0.9 //vec2
+max_alpha_time 0.1,0.3 //vec2
+scale 4,10 //vec2
+lifetime 100 //int, zero means infinite
+min_particle_lifetime 200 //int
+max_particle_lifetime 200 //int
+spawn_frequency 2 //int
+rotation 0 //float
+velocity 0.4 //float
+direction_randomness 0.02 //float
+init_direction 0,1,10 //vec3
+gravity 0 //float

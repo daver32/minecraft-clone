@@ -1,0 +1,8 @@
+name=stone
+diffuse=stoneDiffuse
+normal=stoneNormal
+height=stoneHeight
+reflectivity=0.5
+shineDamper=50
+fresnel=1
+transparency=0

@@ -1,0 +1,41 @@
+#version 400 core
+
+layout (triangles) in;
+layout (triangle_strip, max_vertices = 18) out;
+
+
+in vertexData{
+    vec2 uvCoords;
+}vertexIn[3];
+ 
+out vertexData {
+    vec2 uvCoords;
+}vertexOut;
+
+uniform mat4 projectionMatrix;
+uniform mat4 transformationMatrix;
+uniform mat4 viewMatrix;
+
+uniform mat4[6] sideMatrices;
+
+
+void main(void){
+	for(int side = 0; side < 6; side++){
+		for(int i = 0; i < 3; i++){
+			vec4 os_position = gl_in[i].gl_Position;
+			vec4 ws_position = transformationMatrix * os_position;
+			vec4 vs_position = sideMatrices[side] * viewMatrix * ws_position;
+			vec4 ss_position = projectionMatrix * vs_position;
+		
+			ss_position.xy = -ss_position.xy;
+		
+			gl_Layer = side;
+			gl_Position = ss_position;
+			vertexOut.uvCoords = vertexIn[i].uvCoords;
+			EmitVertex();
+		}
+		EndPrimitive();
+	}
+	
+	
+}

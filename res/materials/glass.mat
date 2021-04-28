@@ -1,0 +1,8 @@
+name=glass
+diffuse=blank
+specular=glassSpecular
+reflectivity=1
+shineDamper=10
+fresnel=1
+transparency=1
+refractiveIndex=1.1

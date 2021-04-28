@@ -1,0 +1,6 @@
+name=dirt
+diffuse=dirtAlbedo
+normal=dirtNormal
+reflectivity=0.1
+shineDamper=50
+fresnel=5

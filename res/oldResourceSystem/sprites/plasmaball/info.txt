@@ -1,0 +1,4 @@
+name plasmaball
+frames 64
+rows 8
+collumns 8

@@ -1,0 +1,4 @@
+name explosionBlastWave
+frames 1
+rows 1
+collumns 1

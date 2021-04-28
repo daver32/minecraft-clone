@@ -1,0 +1,9 @@
+name=ice
+diffuse=iceDiffuse
+normal=iceNormal
+specular=glassSpecular
+reflectivity=1
+shineDamper=50
+fresnel=2
+transparency=1
+refractiveIndex=1.31
